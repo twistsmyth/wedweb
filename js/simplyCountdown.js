@@ -115,9 +115,9 @@
      */
     simplyCountdown = function (elt, args) {
         var parameters = extend({
-                year: 2015,
+                year: 2025,
                 month: 6,
-                day: 28,
+                day: 12,
                 hours: 0,
                 minutes: 0,
                 seconds: 0,
@@ -283,3 +283,4 @@ if (window.jQuery) {
         };
     }(jQuery, simplyCountdown));
 }
+

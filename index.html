@@ -275,22 +275,54 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Are You Attending?</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+					<p>Please Fill-up the form to notify you that you're attending. All fields are required.</p>
 				</div>
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
+					<form action="https://hotmail.us18.list-manage.com/subscribe/post?u=709521a44e7aaff958ea5615f&amp;id=d155477768&amp;f_id=00956ae7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_self" class="form-inline">
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Name">
+								<input type="email" placeholder="Email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" required>
+								<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+								<label for="name" class="sr-only">Email</label>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
+								<input type="text" placeholder="Name" value="" name="FNAME" class="form-control" id="mce-FNAME">
+								<span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
+								<label for="email" class="sr-only">Name</label>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<strong>Do you require accommodation </strong>
+								<ul><li>
+									<input type="radio" value="yes" name="MMERGE7" id="mce-MMERGE7-0">
+									<label for="mce-MMERGE7-0">yes</label>
+								</li>
+								<li>
+									<input type="radio" value="no" name="MMERGE7" id="mce-MMERGE7-1">
+									<label for="mce-MMERGE7-1">no</label>
+								</li>
+								</ul>
+									<span id="mce-MMERGE7-HELPERTEXT" class="helper_text"></span>
+									<span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="mce-MMERGE8">Food type </label>
+								<select name="MMERGE8" class="" id="mce-MMERGE8">
+								<option value=""></option>
+								<option value="Whatever">Whatever</option>
+							    <option value="Vegan">Vegan</option>
+							    <option value="Veggie">Veggie</option>
+							    <option value="Other">Other</option>
+							    <option value="Other">Other</option>
+								</select>
+								<span id="mce-MMERGE8-HELPERTEXT" class="helper_text"></span>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -350,9 +382,9 @@
 
     // default example
     simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
+        year: 2023,
+        month: 3,
+        day: 12,
     });
 
     //jQuery example
