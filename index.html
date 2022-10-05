@@ -113,7 +113,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<p>We would love you to join us on our</p>
 					<h2>Wedding Day!</h2>
-					<h3>Sunday 12th March, 2023</h3>
+					<h3 style="color: white">Sunday 12th March, 2023</h3>
 				</div>
 			</div>
 			<div class="couple-wrap animate-box">
@@ -287,19 +287,10 @@
 								<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
 								<label for="name" class="sr-only">Email</label>
 							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<input type="text" placeholder="Name" value="" name="FNAME" class="form-control" id="mce-FNAME">
-								<span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
-								<label for="email" class="sr-only">Name</label>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
+							<div class="text-center" style="color: white" >
 								<strong>Do you require accommodation </strong>
-								<ul><li>
-									<input type="radio" value="yes" name="MMERGE7" id="mce-MMERGE7-0">
+								<ul style="list-style-type: none"><li>
+									<input type="radio" value="yes" name="MMERGE7" id="mce-MMERGE7-0" checked="checked">
 									<label for="mce-MMERGE7-0">yes</label>
 								</li>
 								<li>
@@ -313,20 +304,26 @@
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
-								<label for="mce-MMERGE8">Food type </label>
+								<input type="text" placeholder="Name" value="" name="FNAME" class="form-control" id="mce-FNAME" required>
+								<span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
+								<label for="email" class="sr-only">Name</label>
+							</div>
+							<div class="text-center">
+								<label style="color: white" for="mce-MMERGE8">Food type </label>
 								<select name="MMERGE8" class="" id="mce-MMERGE8">
-								<option value=""></option>
 								<option value="Whatever">Whatever</option>
 							    <option value="Vegan">Vegan</option>
 							    <option value="Veggie">Veggie</option>
-							    <option value="Other">Other</option>
-							    <option value="Other">Other</option>
 								</select>
 								<span id="mce-MMERGE8-HELPERTEXT" class="helper_text"></span>
 							</div>
 						</div>
+						<div id="mce-responses" class="clear foot">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
+							<button type="submit" class="btn btn-default btn-block" id="mc-embedded-subscribe" value="Subscribe">Lets Go</button>
 						</div>
 					</form>
 				</div>
