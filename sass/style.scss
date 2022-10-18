@@ -77,6 +77,13 @@ $form-group-margin-bottom:       30px !default;
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'Astutely';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Astutely'), url('../fonts/astutely/AstutelyRegular.woff') format('woff');
+    }
+
 @mixin icomoon() {
 	
 	font-family: 'icomoon';
