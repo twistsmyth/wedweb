@@ -473,8 +473,8 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   position: absolute;
   content: " ";
-  width: 1px;
-  background-color: #d4d4d4;
+  width: 2px;
+  background-color: #7E5A3F;
   left: 50%;
   margin-left: 0px;
 }
@@ -1057,6 +1057,17 @@ form label {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+}
+
+.heart2 {
+  position: absolute;
+  left: 49%;
+  animation: pulse 1s cubic-bezier(0, 0.52, 0.25, 1) infinite;
+}
+
+.heart2 i {
+  font-size: 30px;
+  color: #7E5A3F;;
 }
 
 .couple-half {
